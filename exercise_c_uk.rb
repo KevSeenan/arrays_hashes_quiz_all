@@ -34,11 +34,19 @@ united_kingdom = [
 #   capital:Belfast
 # }
 # 3. Use a loop to print the names of all the countries in the UK.
-  for country in united_kingdom
-    p country[:name]
-  end
+
+  # for country in united_kingdom
+  #   p country[:name]
+  # end
 
 
 # 4. Use a loop to find the total population of the UK.
+# scot_pop = united_kingdom[:name]
+
+for country in united_kingdom
+  if country[:name] == "Scotland"
+    p country[:population]
+  end
+end
 
 #p united_kingdom
