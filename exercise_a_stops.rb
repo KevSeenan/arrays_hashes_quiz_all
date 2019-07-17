@@ -16,9 +16,11 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # stops.delete("Livingston")
 # p stops
 # 6. Delete `"Cumbernauld"` from the array by index
-stops.delete_at(1)
-p stops
+# stops.delete_at(1)
+# p stops
 # 7. How many stops there are in the array?
+length = stops.length
+p length
 # 8. How many ways can we return `"Falkirk High"` from the array?
 # 9. Reverse the positions of the stops in the array
 # 10. Print out all the stops using a for loop
