@@ -51,6 +51,10 @@ users = {
         :species => "snake"
       }
     ]
+  },
+  "Kevin" => {
+    :twitter => "KevSeen",
+    :home_town => "Wishaw"
   }
 }
 
@@ -92,8 +96,15 @@ users = {
 
 # 9. Add a pet dog to Erik called "Fluffy"
 
-users["Erik"][:pets][0] = {:name => "Fluffy", :species => "dog"}
-
-p users["Erik"][:pets]
+# users["Erik"][:pets][0] = {:name => "Fluffy", :species => "dog"}
+#
+# p users["Erik"][:pets]
 
 # 10. Add another person to the users hash
+
+  # "Kevin" => {
+  #   :twitter => "KevSeen",
+  #   :home_town => "Wishaw",
+  # }
+
+p users
