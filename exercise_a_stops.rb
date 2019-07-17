@@ -10,9 +10,11 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # stops.insert(3, "Polmont")
 # p stops
 # 4. Work out the index position of `"Linlithgow"`
-index = stops.index("Linlithgow")
-p index
+# index = stops.index("Linlithgow")
+# p index
 # 5. Remove `"Livingston"` from the array using its name
+stops.delete("Livingston")
+p stops
 # 6. Delete `"Cumbernauld"` from the array by index
 # 7. How many stops there are in the array?
 # 8. How many ways can we return `"Falkirk High"` from the array?
