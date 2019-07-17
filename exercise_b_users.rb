@@ -107,4 +107,6 @@ users = {
   #   :home_town => "Wishaw",
   # }
 
+  #Code above added to hash above
+
 p users
