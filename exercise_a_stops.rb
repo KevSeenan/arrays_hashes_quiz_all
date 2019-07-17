@@ -23,9 +23,11 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # p length
 # 8. How many ways can we return `"Falkirk High"` from the array?
 # (A) There are two:
-
-p stops[2]
-p stops[-4]
+#
+# p stops[2]
+# p stops[-4]
 
 # 9. Reverse the positions of the stops in the array
+stops.reverse!
+p stops
 # 10. Print out all the stops using a for loop
