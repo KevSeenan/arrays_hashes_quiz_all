@@ -87,8 +87,13 @@ users = {
 
 # 8. Change Erik's hometown to Edinburgh
 
-users["Erik"][:home_town] = "Edinburgh"
-p users["Erik"][:home_town]
+# users["Erik"][:home_town] = "Edinburgh"
+# p users["Erik"][:home_town]
 
 # 9. Add a pet dog to Erik called "Fluffy"
+
+users["Erik"][:pets][0] = {:name => "Fluffy", :species => "dog"}
+
+p users["Erik"][:pets]
+
 # 10. Add another person to the users hash
